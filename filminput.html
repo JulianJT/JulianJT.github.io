@@ -1,54 +1,56 @@
 <!DOCTYPE html>
-<html> 
+<html>
+
 <head>
     <link rel="stylesheet" href="styles.css">
     <title>Movies form</title>
 </head>
+
 <body class="background">
-    <div class="page">
+    
+            <nav class="nav">
+                <ul>
+                    <li><a href="index.html" class="logo"><img src="logo_white_large.png"></img></a></li>
+                    <li class="padding"><a href="about.html">About</a></li>
+                    <li class="padding"><a href="filminput.html">Search</a></li>
+                    <li class="padding"><a href="filmdetails.html">Movies</a></li>
+                </ul>
+           </nav>
 
-        <div class="pagestyle">
-            <a href="index.html"><img src="logo_white_large.png" class="logo"></img></a>  
-            <div class="buttonlinks">
-                <button class="nav"><a href="about.html">About</a></button>
-            <button class="nav1"><a href="filminput.html">Search</a></button>
-            <button class="nav2"><a href="filmdetails.html">Movies</a></button>
+            <br>
+            <div >
+                <h1>Movies</h1>
+
+
+                <p><em>Here you can find more detatiled information about your favourite movie</em></p>
+                <ul>
+                    <form>
+                        <label for="titleform">Movie title:</label>
+                        <input type="text" id="titleform" name="titleform" placeholder="e.g Tenet" required>
+                        <br><br>
+                        <label for="yearform">Release year:</label>
+                        <input type="text" id="yearform" name="yearform" placeholder="e.g 1999">
+                        <br><br>
+                        <label for="genreform">Genre:</label>
+                        <input type="text" id="genreform" name="genreform" placeholder="e.g horror">
+                        <br><br>
+                        <input type="submit" value="Search">
+
+                    </form>
+                </ul>
+
             </div>
-       
-            <br><br>
-            <div class="offset">
-            <h1>Movies</h1>
-            
-       
-            <p><em>Here you can find more detatiled information about your favourite movie</em></p>
-            <ul>
-                <form>
-                    <label for="titleform">Movie title:</label>
-                    <input type="text" id="titleform" name="titleform" placeholder="e.g Tenet" required> 
-                    <br><br>
-                    <label for="yearform">Release year:</label>
-                    <input type="text" id="yearform" name="yearform" placeholder="e.g 1999">
-                    <br><br>
-                    <label for="genreform">Genre:</label>
-                    <input type="text" id="genreform" name="genreform" placeholder="e.g horror">
-                    <br><br>
-                    <input type="submit" value="Search">
-    
-                </form>
-            </ul>
-    
-        </div>
-        <br>
-        </div>
-
+            <br>
+        
     </div>
-    
 
-   
-    
-<br>
-    <footer style="color: white">This a footer <br> © Julian Tjintjelaar 2020
+
+
+
+    <br>
+    <footer>This a footer <br> © Julian Tjintjelaar 2020
     </footer>
-    
+
 </body>
+
 </html>
