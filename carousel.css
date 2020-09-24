@@ -140,7 +140,7 @@ box-shadow: 0px 2px 20px 0px rgba(0,0,0,0.75);
 }
 
 .carousel-inner {
-  min-height: 40vh;
+  min-height: 50vh;
   max-width:100%;
   height:auto;
 }
