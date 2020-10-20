@@ -102,6 +102,7 @@ body {
 }
 
 .img1 {
+  margin-top: 7%;
   -webkit-box-shadow: 0px 2px 20px 0px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 0px 2px 20px 0px rgba(0, 0, 0, 0.75);
   box-shadow: 0px 2px 20px 0px rgba(0, 0, 0, 0.75);
@@ -134,10 +135,31 @@ body {
 
 .img-detail{
   float: left;
- 
+ margin-top: 1%;
   width: 20%;
   -webkit-box-shadow: 0px 2px 20px 0px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 0px 2px 20px 0px rgba(0, 0, 0, 0.75);
 }
 
+.container {
 
+  background-color: rgb(100, 100, 100);
+}
+p {
+  color: white;
+}
+
+h2 {
+  color: white;
+}
+
+h3 {
+  color: white;
+}
+
+.actor {
+ 
+  width: 100%;
+  -webkit-box-shadow: 0px 2px 20px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 2px 20px 0px rgba(0, 0, 0, 0.75);
+}
