@@ -1,157 +1,417 @@
 /* GLOBAL STYLES
 -------------------------------------------------- */
+
+
 /* Padding below the footer and lighter body text */
 
 body {
-  padding-top: 3rem;
-  padding-bottom: 3rem;
-  color: #5a5a5a;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    color: #5a5a5a;
 }
+
 
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
 
+
 /* Carousel base class */
+
 .carousel {
-  margin-bottom: 4rem;
-}
-/* Since positioning the image, we need to help out the caption */
-.carousel-caption {
-  bottom: 3rem;
-  z-index: 10;
+    margin-bottom: 4rem;
 }
 
+
+/* Since positioning the image, we need to help out the caption */
+
+.carousel-caption {
+    bottom: 3rem;
+    z-index: 10;
+}
+
+
 /* Declare heights because of positioning of img element */
+
 .carousel-item {
-  height: 32rem;
+    height: 32rem;
 }
-.carousel-item > img {
-  min-width: 100%;
-  height: 50rem;
+
+.carousel-item>img {
+    min-width: 100%;
+    height: 50rem;
 }
+
 
 /* MARKETING CONTENT
 -------------------------------------------------- */
 
+
 /* Center align the text within the three columns below the carousel */
+
 .col-md {
-  margin-bottom: 1.5rem;
-  text-align: center;
+    margin-bottom: 1.5rem;
+    text-align: center;
 }
+
 .marketing h2 {
-  font-weight: 400;
+    font-weight: 400;
 }
+
 .col-md p {
-  margin-right: 0.75rem;
-  margin-left: 0.75rem;
+    margin-right: 0.75rem;
+    margin-left: 0.75rem;
 }
 
 .col-md-5 {
-  margin-bottom: 1.5rem;
-  text-align: center;
+    margin-bottom: 1.5rem;
+    text-align: center;
 }
+
 
 /* Featurettes
 ------------------------- */
 
 .featurette-divider {
-  margin: 5rem 0; /* Space out the Bootstrap <hr> more */
+    margin: 5rem 0;
+    /* Space out the Bootstrap <hr> more */
 }
 
+
 /* Thin out the marketing headings */
+
 .featurette-heading {
-  font-weight: 300;
-  line-height: 1;
-  letter-spacing: -0.05rem;
+    font-weight: 300;
+    line-height: 1;
+    letter-spacing: -0.05rem;
 }
+
 
 /* RESPONSIVE CSS
 -------------------------------------------------- */
 
 @media (min-width: 40em) {
-  /* Bump up size of carousel content */
-  .carousel-caption p {
-    margin-bottom: 1.25rem;
-    font-size: 1.25rem;
-    line-height: 1.4;
-  }
-
-  .featurette-heading {
-    font-size: 50px;
-  }
+    /* Bump up size of carousel content */
+    .carousel-caption p {
+        margin-bottom: 1.25rem;
+        font-size: 1.25rem;
+        line-height: 1.4;
+    }
+    .featurette-heading {
+        font-size: 50px;
+    }
 }
 
 @media (min-width: 62em) {
-  .featurette-heading {
-    margin-top: 7rem;
-  }
+    .featurette-heading {
+        margin-top: 7rem;
+    }
 }
 
 .bg-dark {
-  background-color: rgb(0, 110, 255) !important;
+    background-color: rgb(0, 110, 255) !important;
 }
 
 .cimg1 {
-  object-fit: cover;
-  height: 50%;
+    object-fit: cover;
+    height: 50%;
 }
 
 body {
-  color: white;
-  background-color: rgb(90, 90, 90);
+    color: white;
+    background-color: rgb(90, 90, 90);
 }
 
 .img1 {
-  max-width: 40vh;
-
-  -webkit-box-shadow: 0px 2px 20px 0px rgba(0, 0, 0, 0.75);
-  -moz-box-shadow: 0px 2px 20px 0px rgba(0, 0, 0, 0.75);
-  box-shadow: 0px 2px 20px 0px rgba(0, 0, 0, 0.75);
-
-  width: 80%;
+    max-width: 40vh;
+    m -webkit-box-shadow: 0px 2px 20px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 2px 20px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 2px 20px 0px rgba(0, 0, 0, 0.75);
+    width: 100%;
 }
 
 .carousel .item {
-  margin-top: 20px;
-  min-height: 60vh;
+    margin-top: 20px;
+    min-height: 60vh;
 }
 
 .img2 {
-  -webkit-box-shadow: 0px 2px 20px 0px rgba(0, 0, 0, 0.75);
-  -moz-box-shadow: 0px 2px 20px 0px rgba(0, 0, 0, 0.75);
-  width: 50%;
-  margin: 0 auto;
+    -webkit-box-shadow: 0px 2px 20px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 2px 20px 0px rgba(0, 0, 0, 0.75);
+    width: 50%;
+    margin: 0 auto;
 }
 
 .carousel-inner {
-  min-height: 60vh;
+    min-height: 60vh;
 }
 
 .img-detail {
-  float: left;
-  margin-top: 1%;
-  width: 20%;
-  -webkit-box-shadow: 0px 2px 20px 0px rgba(0, 0, 0, 0.75);
-  -moz-box-shadow: 0px 2px 20px 0px rgba(0, 0, 0, 0.75);
+    float: left;
+    margin-top: 1%;
+    width: 20%;
+    -webkit-box-shadow: 0px 2px 20px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 2px 20px 0px rgba(0, 0, 0, 0.75);
 }
 
 .container {
-  background-color: rgb(100, 100, 100);
+    background-color: rgb(100, 100, 100);
 }
+
 p {
-  color: white;
+    color: white;
 }
 
 h2 {
-  color: white;
+    color: white;
 }
 
 h3 {
-  color: white;
+    color: white;
 }
 
 .actor {
-  width: 100%;
-  -webkit-box-shadow: 0px 2px 20px 0px rgba(0, 0, 0, 0.75);
-  -moz-box-shadow: 0px 2px 20px 0px rgba(0, 0, 0, 0.75);
+    margin-top: 5%;
+    max-width: 20vw;
+    width: 100%;
+    -webkit-box-shadow: 0px 2px 20px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 2px 20px 0px rgba(0, 0, 0, 0.75);
+}
+
+.actorimg {
+    margin-top: 20px;
+    max-width: 40vh;
+    -webkit-box-shadow: 0px 2px 20px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 2px 20px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 2px 20px 0px rgba(0, 0, 0, 0.75);
+    width: 80%;
+}
+
+@import "lesshat";
+
+/*******************************************
+  = LESS
+*******************************************/
+
+
+/* LESS - Mixins */
+
+.clearfix() {
+    &:before,
+    &:after {
+        content: "";
+        display: table;
+    }
+    &:after {
+        clear: both;
+    }
+}
+
+.transition() {
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+}
+
+
+/*******************************************
+  = TYPOGRAPHY
+*******************************************/
+
+h
+/*******************************************
+  = LAYOUT
+*******************************************/
+
+* {
+    -webit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+
+/*******************************************
+  = RATING
+*******************************************/
+
+
+/* RATING - Form */
+
+.rating-form {
+    margin-top: -40px;
+    margin-bottom: -40px;
+}
+
+
+/* RATING - Form - Group */
+
+.rating-form .form-group {
+    position: relative;
+    border: 0;
+}
+
+
+/* RATING - Form - Legend */
+
+.rating-form .form-legend {
+    display: none;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    font-size: 2rem;
+    /*background: green;*/
+}
+
+
+/* RATING - Form - Item */
+
+.rating-form .form-item {
+    position: relative;
+    margin: auto;
+    width: 100%;
+    text-align: left;
+    direction: rtl;
+    /*background: green;*/
+}
+
+.rating-form .form-legend+.form-item {
+    padding-top: 10px;
+}
+
+.rating-form input[type='radio'] {
+    position: absolute;
+    left: -9999px;
+}
+
+
+/* RATING - Form - Label */
+
+.rating-form label {
+    display: inline-block;
+    cursor: pointer;
+}
+
+.rating-form .rating-star {
+    display: block;
+    position: relative;
+}
+
+.rating-form input[type='radio']:checked+label:before {
+    right: 25px;
+    opacity: 1;
+}
+
+.rating-form input[type='radio']:checked+label:after {
+    /*right: 5px;*/
+    opacity: 1;
+}
+
+.rating-form label .fa {
+    font-size: 60px;
+    font-size: 2rem;
+    line-height: 60px;
+    .transition();
+}
+
+.rating-form label .fa-star-o {}
+
+.rating-form label:hover .fa-star-o,
+.rating-form label:focus .fa-star-o,
+.rating-form label:hover~label .fa-star-o,
+.rating-form label:focus~label .fa-star-o,
+.rating-form input[type='radio']:checked~label .fa-star-o {
+    opacity: 0;
+}
+
+.rating-form label .fa-star {
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+}
+
+.rating-form label:hover .fa-star,
+.rating-form label:focus .fa-star,
+.rating-form label:hover~label .fa-star,
+.rating-form label:focus~label .fa-star,
+.rating-form input[type='radio']:checked~label .fa-star {
+    opacity: 1;
+}
+
+.rating-form input[type='radio']:checked~label .fa-star {
+    color: gold;
+}
+
+.rating-form .ir {
+    position: absolute;
+    left: -9999px;
+}
+
+
+/* RATING - Form - Action */
+
+.rating-form .form-action {
+    opacity: 0;
+    position: absolute;
+    left: 5px;
+    bottom: -40px;
+    .transition();
+}
+
+.rating-form input[type='radio']:checked~.form-action {
+    cursor: pointer;
+    opacity: 1;
+}
+
+.rating-form .btn-reset:hover,
+.rating-form .btn-reset:focus {
+    background: gold;
+}
+
+.rating-form input[type='radio']:checked~.form-action .btn-reset {
+    cursor: pointer;
+}
+
+
+/* RATING - Form - Output */
+
+.rating-form .form-output {
+    display: none;
+    position: absolute;
+    right: 15px;
+    bottom: -45px;
+    font-size: 30px;
+    font-size: 3rem;
+    opacity: 0;
+    .transition();
+}
+
+.no-js .rating-form .form-output {
+    right: 5px;
+    opacity: 1;
+}
+
+.rating-form input[type='radio']:checked~.form-output {
+    right: 5px;
+    opacity: 1;
+}
+
+.container {
+    max-width: 70vw;
+}
+
+.zoom {
+    transition: transform .2s;
+    /* Animation */
+    width: auto;
+    height: auto;
+    margin: 0 auto;
+}
+
+.zoom:hover {
+    transform: scale(1.1);
+    /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
 }

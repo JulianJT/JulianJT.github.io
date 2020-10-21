@@ -42,7 +42,7 @@
       sizes="16x16"
       type="image/png"
     />
-    <link rel="manifest" href="/docs/4.5/assets/img/favicons/manifest.json" />
+
     <link
       rel="mask-icon"
       href="/docs/4.5/assets/img/favicons/safari-pinned-tab.svg"
@@ -74,6 +74,7 @@
     <!-- Custom styles for this template -->
     <link href="carousel.css" rel="stylesheet" />
   </head>
+
   <body>
     <header>
       <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
@@ -103,17 +104,16 @@
               <a class="nav-link" href="about.html">About</a>
             </li>
           </ul>
+
           <form class="form-inline mt-2 mt-md-0">
             <input
               class="form-control"
               id="anythingSearch"
               type="text"
-              placeholder="Type something to search list items"
+              placeholder="Search movies"
             />
-            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
-              Search
-            </button>
           </form>
+          <label for="anythingSearch">&#32‎‎‎‎</label>
         </div>
       </nav>
     </header>
@@ -141,9 +141,9 @@
                 <p>
                   <a
                     class="btn btn-lg btn-primary"
-                    href="tenet.html"
+                    href="./Movies/tenet.html"
                     role="button"
-                    >More info</a
+                    >View</a
                   >
                 </p>
               </div>
@@ -153,6 +153,7 @@
             <img
               src="./images/The-Devil-All-the-Time-new-images-913.jpg"
               class="cimg1"
+              alt="the devil all the time movie poster"
             />
 
             <rect width="100%" height="100%" fill="#777" />
@@ -163,16 +164,20 @@
                 <p>
                   <a
                     class="btn btn-lg btn-primary"
-                    href="ww1984.html"
+                    href="./Movies/ww1984.html"
                     role="button"
-                    >More info</a
+                    >View</a
                   >
                 </p>
               </div>
             </div>
           </div>
           <div class="carousel-item">
-            <img class="cimg1" src="./images/5kmulan.jpg" alt="mulan banner" />
+            <img
+              class="cimg1"
+              src="./images/5kmulan.jpg"
+              alt="james bond poster"
+            />
 
             <div class="container">
               <div class="carousel-caption text-right">
@@ -180,23 +185,30 @@
                 <p>
                   <a
                     class="btn btn-lg btn-primary"
-                    href="jamesbond.html"
+                    href="./Movies/jamesbond.html"
                     role="button"
-                    >More info</a
+                    >View</a
                   >
                 </p>
               </div>
             </div>
           </div>
           <div class="carousel-item">
-            <img src="./images/widemulan.jpeg" class="cimg1" />
+            <img
+              src="./images/widemulan.jpeg"
+              class="cimg1"
+              alt="mulan banner"
+            />
             <div class="container">
-              <div class="carousel-caption">
+              <div style="color: black" class="carousel-caption text-right">
                 <h1>Mulan</h1>
 
                 <p>
-                  <a class="btn btn-lg btn-primary" href="#" role="button"
-                    >Learn more</a
+                  <a
+                    class="btn btn-lg btn-primary"
+                    href="./Movies/mulan.html"
+                    role="button"
+                    >View</a
                   >
                 </p>
               </div>
@@ -231,9 +243,9 @@
         <!-- Three columns of text below the carousel -->
         <div class="row">
           <div class="col-md">
-            <a href="tenet.html"
+            <a href="./Movies/tenet.html"
               ><img
-                class="img1"
+                class="img1 zoom"
                 src="./images/MV5BYzg0NGM2NjAtNmIxOC00MDJmLTg5ZmYtYzM0MTE4NWE2NzlhXkEyXkFqcGdeQXVyMTA4NjE0NjEy._V1_.jpg"
                 alt="tenet movie poster"
             /></a>
@@ -245,16 +257,19 @@
               something beyond real time.
             </p>
             <p>
-              <a class="btn btn-secondary" href="tenet.html" role="button"
+              <a
+                class="btn btn-secondary"
+                href="./Movies/tenet.html"
+                role="button"
                 >View details &raquo;</a
               >
             </p>
           </div>
           <!-- /.col-lg-4 -->
           <div class="col-md">
-            <a href="mulan.html">
+            <a href="./Movies/mulan.html">
               <img
-                class="img1"
+                class="img1 zoom"
                 src="./images/MV5BNDliY2E1MjUtNzZkOS00MzJlLTgyOGEtZDg4MTI1NzZkMTBhXkEyXkFqcGdeQXVyNjMwMzc3MjE@._V1_.jpg"
                 alt="mulan movie poster"
             /></a>
@@ -264,17 +279,20 @@
               order to save her father.
             </p>
             <p>
-              <a class="btn btn-secondary" href="mulan.html" role="button"
+              <a
+                class="btn btn-secondary"
+                href="./Movies/mulan.html"
+                role="button"
                 >View details &raquo;</a
               >
             </p>
           </div>
           <!-- /.col-lg-4 -->
           <div class="col-md">
-            <a href="jamesbond.html"
+            <a href="./Movies/jamesbond.html"
               ><img
-                class="img1"
-                src="./images/james-bond-no-time-to-die-azure-teaser-i84058.jpg"
+                class="img1 zoom"
+                src="./images/BOND-Watermarked-Gallery-Portrait_0001_1�-Optimised_1296x1920_blk_whtTT_NTTD_RAMI.jpg"
                 alt="james bond no time to die movie poster"
               />
             </a>
@@ -286,16 +304,19 @@
               with dangerous new technology.
             </p>
             <p>
-              <a class="btn btn-secondary" href="jamesbond.html" role="button"
+              <a
+                class="btn btn-secondary"
+                href="./Movies/jamesbond.html"
+                role="button"
                 >View details &raquo;</a
               >
             </p>
           </div>
 
           <div class="col-md">
-            <a href="ww1984.html"
+            <a href="./Movies/ww1984.html"
               ><img
-                class="img1"
+                class="img1 zoom"
                 src="./images/ww1984.jpg"
                 alt="wonder woman 1984 movie poster"
             /></a>
@@ -306,7 +327,10 @@
               Cheetah.
             </p>
             <p>
-              <a class="btn btn-secondary" href="ww1984.html" role="button"
+              <a
+                class="btn btn-secondary"
+                href="./Movies/ww1984.html"
+                role="button"
                 >View details &raquo;</a
               >
             </p>
@@ -319,9 +343,9 @@
           <!-- Three columns of text below the carousel -->
           <div class="row">
             <div class="col-md">
-              <a href="devilallthetime.html">
+              <a href="./Movies/devilallthetime.html">
                 <img
-                  class="img1"
+                  class="img1 zoom"
                   src="./images/MV5BZmE1NmVmN2EtMjZmZC00YzAyLWE4MWEtYjY5YmExMjUxODU1XkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_.jpg"
                   alt="the devil all the time movie poster"
               /></a>
@@ -334,7 +358,7 @@
               <p>
                 <a
                   class="btn btn-secondary"
-                  href="devilallthetime.html"
+                  href="./Movies/devilallthetime.html"
                   role="button"
                   >View details &raquo;</a
                 >
@@ -342,9 +366,9 @@
             </div>
             <!-- /.col-lg-4 -->
             <div class="col-md">
-              <a href="parasite.html"
+              <a href="./Movies/parasite.html"
                 ><img
-                  class="img1"
+                  class="img1 zoom"
                   src="./images/MV5BYWZjMjk3ZTItODQ2ZC00NTY5LWE0ZDYtZTI3MjcwN2Q5NTVkXkEyXkFqcGdeQXVyODk4OTc3MTY@._V1_.jpg"
                   alt="parasite movie poster"
               /></a>
@@ -355,16 +379,19 @@
                 destitute Kim clan.
               </p>
               <p>
-                <a class="btn btn-secondary" href="parasite.html" role="button"
+                <a
+                  class="btn btn-secondary"
+                  href="./Movies/parasite.html"
+                  role="button"
                   >View details &raquo;</a
                 >
               </p>
             </div>
             <!-- /.col-lg-4 -->
             <div class="col-md">
-              <a href="johnwick.html">
+              <a href="./Movies/johnwick.html">
                 <img
-                  class="img1"
+                  class="img1 zoom"
                   src="./images/jeNTqOnux7KSulznSh4UdiDlfmV.jpg"
                   alt="john wick chapter 3 movie poster"
               /></a>
@@ -375,16 +402,19 @@
                 on his head, he is the target of hit men and women everywhere.
               </p>
               <p>
-                <a class="btn btn-secondary" href="johnwick.html" role="button"
+                <a
+                  class="btn btn-secondary"
+                  href="./Movies/johnwick.html"
+                  role="button"
                   >View details &raquo;</a
                 >
               </p>
             </div>
 
             <div class="col-md">
-              <a href="doctorsleep.html"
+              <a href="./Movies/doctorsleep.html"
                 ><img
-                  class="img1"
+                  class="img1 zoom"
                   src="./images/MV5BYmY3NGJlYTItYmQ4OS00ZTEwLWIzODItMjMzNWU2MDE0NjZhXkEyXkFqcGdeQXVyMzQzMDA3MTI@._V1_.jpg"
                   alt="doctor sleep movie poster"
               /></a>
@@ -398,7 +428,7 @@
               <p>
                 <a
                   class="btn btn-secondary"
-                  href="doctorsleep.html"
+                  href="./Movies/doctorsleep.html"
                   role="button"
                   >View details &raquo;</a
                 >
@@ -418,7 +448,7 @@
             <p class="float-right"><a href="#">Back to top</a></p>
             <p>
               &copy; 2020 Julian Tjintjelaar &middot;
-              <a href="#">Privacy</a> &middot; <a href="#">Terms</a>
+              <a href="about.html">About</a>
             </p>
           </footer>
 
@@ -433,8 +463,8 @@
             crossorigin="anonymous"
           ></script>
           <script
-            src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
-            integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+            src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
             crossorigin="anonymous"
           ></script>
           <script
@@ -442,17 +472,7 @@
             integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
             crossorigin="anonymous"
           ></script>
-          <script>
-            window.jQuery ||
-              document.write(
-                '<script src="/docs/4.5/assets/js/vendor/jquery.slim.min.js"><\/script>'
-              );
-          </script>
-          <script
-            src="/docs/4.5/dist/js/bootstrap.bundle.min.js"
-            integrity="sha384-LtrjvnR4Twt/qOuYxE721u19sVFLVSA4hf/rRt6PrZTmiPltdZcI7q7PXQBYTKyf"
-            crossorigin="anonymous"
-          ></script>
+
           <script src="./search.js"></script>
         </div>
       </div>
